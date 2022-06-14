@@ -40,3 +40,14 @@
     flex-direction: column;
     align-items: center;
 }
+
+.d-flex {
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C3BA85;
+}
+
+h4{
+    text-decoration: underline;
+}
