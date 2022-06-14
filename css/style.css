@@ -117,11 +117,8 @@ li{
 .containerC {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    margin: 3rem;
+    flex-direction: column;
+    margin: 1rem;
 }
 
-.fs-3{
-    text-decoration: underline;
-}
 
