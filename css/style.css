@@ -1,0 +1,42 @@
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fs-1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    align-items: center;
+    flex-direction: row;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
